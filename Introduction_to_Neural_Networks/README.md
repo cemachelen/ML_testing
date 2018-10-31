@@ -5,7 +5,7 @@
 # [Build your own neural network](https://towardsdatascience.com/how-to-build-your-own-neural-network-from-scratch-in-python-68998a08e4f6)
 
 A 2 layer neural network (a mathematical function that maps a given input to a desired output)
-[!![https://cdn-images-1.medium.com/max/800/1*sX6T0Y4aa3ARh7IBS_sdqw.png](https://cdn-images-1.medium.com/max/800/1*sX6T0Y4aa3ARh7IBS_sdqw.png)]
+![https://cdn-images-1.medium.com/max/800/1*sX6T0Y4aa3ARh7IBS_sdqw.png](https://cdn-images-1.medium.com/max/800/1*sX6T0Y4aa3ARh7IBS_sdqw.png)
 
 * An input layer **x** with an arbitrary amount of **hidden layers** and an output layer **y**
 * You need a set of weights and biases **W** and **b**
@@ -21,14 +21,14 @@ The goal is to find the correct Ws and b - you need to "train" the network.
 
 * **feedforword** calculate predicted y
 
-[!![https://cdn-images-1.medium.com/max/800/1*CEtt0h8Rss_qPu7CyqMTdQ.png](https://cdn-images-1.medium.com/max/800/1*CEtt0h8Rss_qPu7CyqMTdQ.png)
+![https://cdn-images-1.medium.com/max/800/1*CEtt0h8Rss_qPu7CyqMTdQ.png](https://cdn-images-1.medium.com/max/800/1*CEtt0h8Rss_qPu7CyqMTdQ.png)
 
 The feedforword stage we use the input wieght, bias and activation function to calculate layer
 1 and then you layer1 and the input to cumulate the output
 
 We then use a "**Loss function**" to evaluated how close to y we got. E.g. Sum of squares error:
 
-[!![https://cdn-images-1.medium.com/max/800/1*iNa1VLdaeqwUAxpNXs3jwQ.png](https://cdn-images-1.medium.com/max/800/1*iNa1VLdaeqwUAxpNXs3jwQ.png)
+![https://cdn-images-1.medium.com/max/800/1*iNa1VLdaeqwUAxpNXs3jwQ.png](https://cdn-images-1.medium.com/max/800/1*iNa1VLdaeqwUAxpNXs3jwQ.png)
 
 The idea is to find the best W and b values to reduce the loss function (get as close as possible to correct y)
 
@@ -39,6 +39,6 @@ Now we must propagate the error back to find the weight and bias adjustment. fin
 
 Loss(y,y_pred) - is not in terms of W and b so the chain rule must be applied:
 
-[!![https://cdn-images-1.medium.com/max/800/1*7zxb2lfWWKaVxnmq2o69Mw.png](https://cdn-images-1.medium.com/max/800/1*7zxb2lfWWKaVxnmq2o69Mw.png)
+![https://cdn-images-1.medium.com/max/800/1*7zxb2lfWWKaVxnmq2o69Mw.png](https://cdn-images-1.medium.com/max/800/1*7zxb2lfWWKaVxnmq2o69Mw.png)
 
 Set up an example:

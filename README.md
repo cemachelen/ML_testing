@@ -7,9 +7,11 @@ projects will be stored here. :snake:
 
 # Overview #
 
-* Introduction to Neural Networks
+* [Introduction to Neural Networks](https://github.com/cemachelen/ML_testing/tree/master/Introduction_to_Neural_Networks)
   * 2 layer example from scratch and from Keras
   * Cartpole Game using Keras (DQN)
+*  AutoKeras 
+ 
 
 <hr>
 

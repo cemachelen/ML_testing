@@ -1,8 +1,6 @@
-# Machine Learning #
-
-<hr>
-
 # [Build your own neural network](https://towardsdatascience.com/how-to-build-your-own-neural-network-from-scratch-in-python-68998a08e4f6)
+
+Following the tutorial from James Loy (Georgia Tech):
 
 A 2 layer neural network (a mathematical function that maps a given input to a desired output)
 ![https://cdn-images-1.medium.com/max/800/1*sX6T0Y4aa3ARh7IBS_sdqw.png](https://cdn-images-1.medium.com/max/800/1*sX6T0Y4aa3ARh7IBS_sdqw.png)
@@ -41,4 +39,11 @@ Loss(y,y_pred) - is not in terms of W and b so the chain rule must be applied:
 
 ![https://cdn-images-1.medium.com/max/800/1*7zxb2lfWWKaVxnmq2o69Mw.png](https://cdn-images-1.medium.com/max/800/1*7zxb2lfWWKaVxnmq2o69Mw.png)
 
-Set up an example:
+# Results #
+
+Using a very simple example scripted in PlaywithNN.py we can see this in action:
+
+<img src="1500iter.png">
+
+The predicted values are very close to our actual values and we can see the "Loss"
+really dropping off after 1000 iterations. In fact there's little difference in the results between 1500 and 100000. But this is a very simple case.

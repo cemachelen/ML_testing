@@ -3,7 +3,7 @@ This is a simple example  of a 2 layer neural network written in python based
 off of James Loy (Georgia Tech) work
 """
 
-import numpy
+import numpy as np
 
 
 def sigmoid(x):
@@ -79,5 +79,4 @@ if __name__ == "__main__":
     for i in range(1500):
         nn.feedforward()
         nn.backprop()
-
-print(nn.output)
+    print(nn.output)

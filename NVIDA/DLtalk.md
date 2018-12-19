@@ -2,7 +2,7 @@
 
 * quotes AI index report 
 
-##frameworks ##
+## frameworks ##
 
 * Accelerated versions optimized for nvida gpus
 * Notes that Keras and Pytorch are increasing
@@ -47,4 +47,7 @@ DL improvements: Algortihm impovmend, GPU improvemnt data inc
 * Uses [DIGITS](https://developer.nvidia.com/digits) 
 * intstuction notebook and digit environent
 
+ ## DNN ##
  
+ * image classification: pixels, RBG 
+

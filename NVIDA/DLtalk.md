@@ -21,7 +21,7 @@
  
 <hr>
 
-# [Practical]() #
+# [Practical](https://courses.nvidia.com) #
 
 DeepLearningInstitute 
 
@@ -34,7 +34,17 @@ If complete, they issue a cert
 
 DL improvements: Algortihm impovmend, GPU improvemnt data inc
 
-## Training ##
+## Using the course ##
 
+1. [Check web sockets](websocketstest.com)
+2. Activate with code not version controlled
+3. Use Nvidia DLI interface
+
+## Notes on the Coursew ##
+
+* Starts with examples of human classification
+* GPU tasks take a while to load 
+* Uses [DIGITS](https://developer.nvidia.com/digits) 
+* intstuction notebook and digit environent
 
  

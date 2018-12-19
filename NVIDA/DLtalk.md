@@ -48,4 +48,4 @@ DL improvements: Algortihm impovmend, GPU improvemnt data inc
 * intstuction notebook and digit environent
 * **TIP** testing image before classify 1 select show vis statistics
  * Shows induvidual layers highlighting features, easy to see first 2 layers after that it is hard to see
-
+* highlighted transfered learning

@@ -46,8 +46,6 @@ DL improvements: Algortihm impovmend, GPU improvemnt data inc
 * GPU tasks take a while to load 
 * Uses [DIGITS](https://developer.nvidia.com/digits) 
 * intstuction notebook and digit environent
-
- ## DNN ##
- 
- * image classification: pixels, RBG 
+* **TIP** testing image before classify 1 select show vis statistics
+ * Shows induvidual layers highlighting features, easy to see first 2 layers after that it is hard to see
 
